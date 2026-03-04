@@ -11,7 +11,7 @@ await import("./Bridge/config.js")
 
 global.det = det
 
-const bot = new TelegramBot("8110692904:AAFHnlFdOdEfC9h_KQMFpolLP5Zebw-A-cQ", { polling: true })
+const bot = new TelegramBot("8131287037:AAGrKTbHjmqjQmTtGwLl2Ut9uCr9rggij1g", { polling: true })
 const bridge = new WhatsAppBridge()
 
 global.pendingPair = {}
